@@ -88,6 +88,11 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
-        }
+        },
+    	"patches": {
+        	"drupal/core": {
+            		"Font fix": "https://www.drupal.org/files/issues/2022-03-11/includefonts-2960583-45.patch"
+        	}
+    	}	
     }
 }
